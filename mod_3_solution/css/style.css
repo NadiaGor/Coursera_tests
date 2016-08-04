@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/************************NAVIGATION BAR*******************************/
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    }
+
+.navbar {
+    background-color: #AAC62B;
+}
+    
+#collapsable-nav {
+    text-align: center;
+                  }
+
+#brand {
+    border: 1px solid grey;
+    background-color: #E2B153;
+    color: black;
+    margin: 5px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+#brand:hover {
+    background-color: #FFD586;
+}
+
+#but-ham {
+    color: grey;
+    border: 1px solid grey;
+    background-color: #87A015;
+}
+
+#but-ham:hover {
+    background-color: #E1F682;
+}
+
+
+/*****************************Page********************************/
+
+#our-menu {
+    margin-bottom: 30px;
+}
+
+#chicken, #beef, #sushi {
+    background-color: #E2B153;
+    height: 700px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#ch, #be, #su {
+    height: 620px;
+    overflow: hidden;
+}
+
+#b-to-top {
+    bottom: 20px;
+    text-align: center;
+    margin: 20px;
+    }
+
+#b-t-t {
+    background-color: #AAC62B;
+    text-align: center;
+        }
+
+#b-t-t:hover {
+     background-color: #E1F682;
+}
+
+
+/*****************************LARGE DEVICES********************************/
+@media (min-width: 992px) {
+    
+}
+
+/*****************************MEDIUM DEVICES********************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+   }
+
+/**************************SMALL DEVICES*****************************/
+
+@media (max-width: 767px) {
+    #collapsable-nav {
+     background-color: #E1F682;
+              }
+    #collapsable-nav a:hover {
+     background-color: #AAC62B;
+              }
+}
+
+/**************************EXTRA SMALL DEVICES*****************************/
+
+@media (max-width: 767px) {
+  
+ 
+}
